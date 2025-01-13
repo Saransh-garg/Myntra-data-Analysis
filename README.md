@@ -17,7 +17,7 @@ The dataset was cleaned, prepared, and analyzed using various Excel features and
 - **High vs Low Discount Labeling:** Added a "High Discount" label for products with discounts over 50% using the `IF` function.
 
 ## Data Retrieval and Lookup
-- **Product Lookup:** Used `XLOOKUP` to retrieve product details (brand, price, rating) for Product_id "11226634".
+- **Product Lookup:** Used `XLOOKUP` to retrieve product details (brand, price, rating) 
 - **DiscountPrice Lookup:** Retrieved the "DiscountPrice" for Product ID "6744434" with `INDEX` and `MATCH`.
 - **Nested Lookups:** Implemented nested `XLOOKUP` for advanced column detail retrieval based on product ID.
 
